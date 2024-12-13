@@ -20,12 +20,11 @@ print(f"Das Ergebnis ist: {zahl1+zahl2}")
 Eingabe = input("Bitte Zahl eingeben: ")
 if int(Eingabe) > 0:
     print("Ihre Zahl ist negativ.")
-if int(Eingabe) < 0:
+elif int(Eingabe) < 0:
     print("Ihre Zahl ist positiv.")
-if int(Eingabe) == 0:
+else: 
     print("Ihre Zahl ist 0")
 print ("Ergebnis wurde angegeben!")
-
 
 
 
