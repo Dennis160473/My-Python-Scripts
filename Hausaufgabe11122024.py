@@ -11,10 +11,8 @@ print("Zahl 1 / Zahl 2:", zahl1 / zahl2)
 
 ### Aufgabe 2.2: Durchschnitt berechnen
 
-note1 = 2
-note2 = 3
-note3 = 4
-Zahlen = [2,3,4]
+
+Zahlen = [note1,note2,note1]
 average = sum(Zahlen)/len(Zahlen)
 print("Average of list: ", round(average,3))
 
