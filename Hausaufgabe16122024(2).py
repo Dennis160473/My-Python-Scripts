@@ -30,8 +30,8 @@ print(
 )
 
 select = int(input("Select operations form 1, 2, 3, 4 : "))
-number_1 = int(input("Bitte geben Sie eine ganze Zahl an? "))
-number_2 = int(input("Bitte geben Sie eine ganze Zahl an? "))
+number_1 = int(input("Please enter a number? "))
+number_2 = int(input("Please enter a number? "))
 
 if select == 1:
     print(number_1, "+", number_2, "=", add(number_1, number_2))
