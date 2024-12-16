@@ -1,4 +1,8 @@
-# calculator()
+# Dann schreibt eine Funktion calculator(), die:
+# ■ Den User fragt, ob er addieren, subtrahieren, multiplizieren oder dividieren will
+# ■ Den user nach 2 Zahlen fragt
+# ■ Die entsprechende Funktion aufruft
+# ■ Das Ergebnis auf der Konsole anzeigt
 
 
 def add(num1, num2):

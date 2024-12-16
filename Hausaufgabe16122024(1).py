@@ -1,9 +1,8 @@
-# Aufgabe 3: Taschenrechner (50 Punkte)
 # ● Aufgabenstellung:
 # ○ Schreibe zunächst 4 Funktionen: add(x,y), subtract(x,y), mult(x,y) und div(x,y)
 # ○ Jede dieser 4 Funktionen soll 2 Argumente annehmen: x und y, und die miteinander addieren, subtrahieren, multiplizieren oder dividieren
-# ○ Dann schreibt eine Funktion calculator(), die: ■ Den User fragt, ob er addieren, subtrahieren, multiplizieren oder dividieren will
-# ■ Den user nach 2 Zahlen fragt ■ Die entsprechende Funktion aufruft ■ Das Ergebnis auf der Konsole anzeigt
+
+
 def add(x, y):
     print(x + y)
 
