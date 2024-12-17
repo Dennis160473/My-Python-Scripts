@@ -1,4 +1,7 @@
-# Aufgabe 1
+# Aufgabe 3: Programmierübungen vom Vormittag
+
+
+# Aufgabe 3.1
 def calc_area(width, height):
     return width * height
 
@@ -12,7 +15,7 @@ else:
     print()
 
 
-# Aufgabe 2
+# Aufgabe 3.2 + 3.3
 print("Meilen <-> Kilometer")
 faktor = 1.60934
 
@@ -35,10 +38,40 @@ else:
 print("Ende des Programms")
 
 
-# Hit import statements
-from datetime import datetime
-import random
+# Aufgabe 3.4
 
-now = datetime.now()
-print(now)
-print(random.randint)
+# Umrechnungsformeln
+# von Fahrenheit in Celsius
+# (F - 32) * 5/9:
+# von Celsius nach Fahrenheit
+# (C * 1,8 + 32):
+
+
+# Umrechnung in Fahrenheit
+def celsius_to_fahrenheit(result):
+    return result
+
+
+user = float(input("Please enter a number? "))
+result = (user * 1.8) + 32
+
+if celsius_to_fahrenheit(result):
+    print(f"Ihr Ergebnis in Fahrenheit ist {result}. ")
+else:
+    print()
+
+
+# Umrechnung in Celsius
+
+
+def fahrenheit_to_celsius(result):
+    return result
+
+
+user = float(input("Please enter a number? "))
+result = (user - 32) * (5 / 9)
+
+if fahrenheit_to_celsius(result):
+    print(f"Ihr Ergebnis in Celsius ist {result}. ")
+else:
+    print()

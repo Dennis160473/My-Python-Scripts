@@ -8,16 +8,6 @@ print("Zahl 1 * Zahl 2:", zahl1 * zahl2)
 print("Zahl 1 / Zahl 2:", zahl1 / zahl2)
 
 
-
-### Aufgabe 2.2: Durchschnitt berechnen
-
-
-Zahlen = [note1,note2,note1]
-average = sum(Zahlen)/len(Zahlen)
-print("Average of list: ", round(average,3))
-
-
-
 ### Aufgabe 2.3 Kilometer in Meilen umrechnen: 1 Kilometer = 0.621371 Meilen
 
 
@@ -41,4 +31,3 @@ else:
     print("Diese Eingabe war nicht vorgesehen")
 
 print("Ende des Programms")
-
