@@ -1,3 +1,6 @@
+# Aufgabe 3: Programmierübungen vom Vormittag
+
+
 # Aufgabe 1
 def calc_area(width, height):
     return width * height
