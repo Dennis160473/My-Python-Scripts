@@ -1,10 +1,8 @@
-# Joshuas Variante
-
 # Eingabe des Datum durch den User
-date = input("please enter the vacations date (yyyy.mm.dd): ")
+date = input("Please enter the date: ")
 
 # Variablen der Feriendaten
-is_winter = date >= "2024.12.24" and date <= "2025.01.01"
+is_winter = date <= "2025.12.24" and date <= "2025.01.01"
 is_spring = date <= "2025.04.18" and date >= "2025.04.21"
 is_summer = date <= "2025.08.11" and date >= "2025.08.19"
 is_winter2 = date <= "2025.12.24" and date >= "2026.01.01"

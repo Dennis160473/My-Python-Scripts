@@ -37,7 +37,7 @@ elif user == "Papier" and selectRandom(Computer) == "Stein":
     print("Paper beats rock. Point for player")
 
 play_again = input("Want to play another round? Y/N ")
-if play_again == "Y":
+if play_again.lower != "Y":
     print("New game")
 else:
     print("End of Game")

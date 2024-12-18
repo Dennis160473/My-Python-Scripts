@@ -9,10 +9,7 @@ def calc_area(width, height):
 width = float(input("Please enter a number? "))
 height = float(input("Please enter a number? "))
 
-if calc_area(width, height):
-    print(f"Das Ergebnis der Fläche ist {width * height}.")
-else:
-    print()
+print(f"The result of the area is {alc_area(width * height)}.")
 
 
 # Aufgabe 3.2 + 3.3

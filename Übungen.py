@@ -45,3 +45,11 @@ import random
 now = datetime.now()
 print(now)
 print(random.randint)
+
+
+# Vorgefertigte Pakete in Python
+import datetime
+
+date_str = "2024-12-24"
+date = datetime.datetime(2024, 12, 24)
+date.year
