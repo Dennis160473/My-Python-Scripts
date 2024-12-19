@@ -1,12 +1,12 @@
 # Aufgabe 2
 
 # 2.1 - Aktuelles Datum und Uhrzeit ausgeben im Format TT.MM.JJJJ HH:MM:SS
-import datetime
+from datetime import datetime
 
 
 def aktuelles_datum_und_uhrzeit():
-    Ausgabe = datetime.today().strftime("%d.%m.%Y, %X")
-    print(Ausgabe)
+    Ausgabe = datetime.now()
+    print(Ausgabe.strftime("Heute ist der %d.%m.%Y und es ist %H:%M:%S"))
 
 
 aktuelles_datum_und_uhrzeit()
@@ -15,32 +15,39 @@ aktuelles_datum_und_uhrzeit()
 # 2.2 - Differenz bis zum Jahresende berechnen
 from datetime import timedelta
 
-
-def tage_bis_jahresende(time_interval=day_2 - day_1):
-    print(time_difference)
+today = datetime.now()
 
 
-day_1 = datetime.timedelta.today("%d.%m.%Y")
-day_2 = datetime.timedelta("31.12.2024")
+def tage_bis_jahresende(keydate):
+    year = keydate.year
+    end_of_year = datetime(year, 12, 31)
+    return (end_of_year - keydate).days
 
-tage_bis_jahresende()
+
+difference_in_days = tage_bis_jahresende(today)
+print(f"2. Days left until end of year: {difference.days}")
 
 
 # 2.3 - Benutzerdefiniertes Datum
-def tage_bis_datum():
-    result = datetime.datetime().strftime("%d.%m.%Y, %X")
-    print(result)
+def tage_bis_datum(keydate):
+    return (keydate - today).days
 
 
-user = input("Please enter the date: ")
+user_date_str = input("Enter a date (DD.MM.YYYY): ")
 
-tage_bis_datum()
+user_date = datetime.strptime(user_date_str, "%d.%m.%Y")
+
+remaining = tage_bis_datum(user_date)
+print(f"Remainig days from now until user input:{remaining_days} days")
 
 
 # 2.4 - Wochentag berechnen
-def wochentag_berechnen():
-    weekday = datetime.datetime("%A")
-    print(weekday)
+def wochentag_berechnen(input_date):
+    return input_date_strftime("%A")
 
 
-wochentag_berechnen()
+user_date_str = input("Enter a date (DD.MM.YYYY): ")
+
+user_date = datetime.strptime(user_date_str, "%d.%m.%Y")
+result_weekday = wochentag_berechnen(user_date)
+print(f"The weekday of the input date is {result_weekday}")
