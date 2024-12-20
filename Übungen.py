@@ -53,3 +53,20 @@ import datetime
 date_str = "2024-12-24"
 date = datetime.datetime(2024, 12, 24)
 date.year
+
+
+# Algorithmus anwenden
+def kaffee_kochen():
+    print("Wasser erhitzen")
+    print("Kaffeepulver in die Maschine geben")
+    print("Wasser einfüllen")
+    print("Maschine einschalten")
+    print("Kaffee genießen")
+
+
+kaffee_kochen()
+
+
+zahlen = [1, 2, 3, 4, 5]
+print("Die erste Zahl ist:", zahlen[0])
+print("Die letzte Zahl ist:", zahlen[-1])
